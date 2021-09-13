@@ -5,7 +5,7 @@
 * **Phone:** +375(29)217-23-75
 * **Email:** korchikov_k@mail.ru
 * **GitHub:** Korchvagen
-* **Vk id:** de_cherry
+* **VK:** [Костя Корчиков](https://vk.com/de_cherry)
 * **Telegram:** @Kor4vagen
 
 ### Briefly About Myself:
@@ -57,7 +57,7 @@ I also completed the tasks of the following coursework:
 ### Education
 
 * Belarusian State University Informatics and Radioelectronics, Faculty of Computer-Aided Design, Specialty of Engineering-Psychological Maintenance of Information Technologies
-* RSSchool course on Frontend Development
+* [RSSchool course on Frontend Development](https://rs.school/js/)
 
 ### Languages
 
