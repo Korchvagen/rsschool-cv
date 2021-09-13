@@ -45,3 +45,10 @@ function sortArray(arr){
     }
 }
 ```
+
+### Experience
+
+I have no work experience. I am currently taking a RSSchool course on Frontend development.
+I also completed the tasks of the following coursework:
+* The program of the assortment of toys in the store
+* The program for broadcasting sound from a smartphone to a PC via Bluetooth.
