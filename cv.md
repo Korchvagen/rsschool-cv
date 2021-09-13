@@ -16,3 +16,13 @@ I have chosen for myself, that I will study Web Development. I study Frontend De
 
 I believe, that my skills and perseverance will help me achieve my goals and I will become a successful frontend developer.
 ***
+**Skills and Proficiency:**
+* HTML
+* CSS
+* JavaScript Basics
+* C/C++
+* C# Basics
+* Assembly
+* Git, GitHub
+* VS, VS Code
+***
