@@ -1,7 +1,7 @@
-# rsschool-cv
 # Konstantin Korchikov
 ***
-## Contacts
+**Contact information:**
+
 * **Location:** Belarus
 * **Phone:** +375 29 217-23-75
 * **Email:** korchikov_k@mail.ru
