@@ -48,7 +48,7 @@ function sortArray(arr){
 
 ### Experience
 
-I have no work experience. I am currently taking a RSSchool course on Frontend development.
+I have no work experience. I am currently taking a RSSchool course on Frontend Development.
 I also completed the tasks of the following coursework:
 * The program of the assortment of toys in the store
 * The program for broadcasting sound from a smartphone to a PC via Bluetooth.
@@ -57,4 +57,4 @@ I also completed the tasks of the following coursework:
 ### Education
 
 * Belarusian State University Informatics and Radioelectronics, Faculty of Computer-Aided Design, Specialty of Engineering-Psychological Maintenance of Information Technologies
-* RSSchool course on Frontend development
+* RSSchool course on Frontend Development
