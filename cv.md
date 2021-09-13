@@ -26,3 +26,22 @@ I believe, that my skills and perseverance will help me achieve my goals and I w
 * Assembly
 * Git, GitHub
 * VS, VS Code
+
+### Code Example
+
+This function takes an array of numbers and sorts them in ascending order.
+
+```javascript
+function sortArray(arr){
+    for(let i = 0; i < arr.length; i++){
+        for(let j = 0; j < arr.length; j++){
+            if(arr[i]<arr[j]){
+                let swap = 0;
+                swap = arr[i];
+                arr[i] = arr[j];
+                arr[j] = swap;
+            }
+        }
+    }
+}
+```
