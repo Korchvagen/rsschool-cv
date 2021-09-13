@@ -4,7 +4,7 @@
 * **Location:** Belarus
 * **Phone:** +375(29)217-23-75
 * **Email:** korchikov_k@mail.ru
-* **GitHub:** Korchvagen
+* **GitHub:** [Korchvagen](https://github.com/Korchvagen)
 * **VK:** [Костя Корчиков](https://vk.com/de_cherry)
 * **Telegram:** @Kor4vagen
 
