@@ -53,3 +53,8 @@ I also completed the tasks of the following coursework:
 * The program of the assortment of toys in the store
 * The program for broadcasting sound from a smartphone to a PC via Bluetooth.
 * Minesweeper game
+
+### Education
+
+* Belarusian State University Informatics and Radioelectronics, Faculty of Computer-Aided Design, Specialty of Engineering-Psychological Maintenance of Information Technologies
+* RSSchool course on Frontend development
