@@ -58,3 +58,7 @@ I also completed the tasks of the following coursework:
 
 * Belarusian State University Informatics and Radioelectronics, Faculty of Computer-Aided Design, Specialty of Engineering-Psychological Maintenance of Information Technologies
 * RSSchool course on Frontend Development
+
+### Languages
+
+English level - A2
