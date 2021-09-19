@@ -34,3 +34,67 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 body{
     background-color: #746954;
 }
+
+header{
+    width: 1000px;
+    height: 550px;
+    background: #462F2D;
+    margin: auto;
+}
+
+.myName{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 80px;
+    position: relative;
+    top: 185px;
+    left: 15px;
+    /* border-top: 2px solid #FFFFFF; */
+}
+
+.myPhoto{
+    max-width: 350px;
+    height: 550px;
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+
+.aboutMe{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 50px;
+    right: -60px;
+}
+
+.aboutMeText{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 300px;
+    position: relative;
+    top: -430px;
+    left: 680px;
+    line-height: 18px;
+}
+
+.line1{
+    border-top: 2px solid #FFFFFF;
+    max-width: 250px;
+    position: relative;
+    top: -670px;
+    left: 30px;
+}
+
+.line2{
+    border-top: 2px solid #FFFFFF;
+    max-width: 250px;
+    position: relative;
+    top: -490px;
+    left: 30px;
+}
