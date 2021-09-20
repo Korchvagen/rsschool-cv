@@ -97,10 +97,17 @@ header{
 }
 
 main{
-    width: 400px;
+    width: 1000px;
     height: 930px;
+    background: #ffffff;
+    margin: auto;
+}
+
+.leftColumn{
+    width: 40%;
+    height: 100%;
     background: #F0D58E;
-    margin: 0px 0px 0px 176px;
+
 }
 
 .headerContacts{
@@ -291,4 +298,49 @@ main{
 
 .ulSkills li{
     padding-left: 15px;
+}
+
+.headerLanguages{
+    padding: 30px 205px 0px 145px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.languagesLine1{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+}
+
+.languagesLine2{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+
+.ulLanguages{
+    color: #000000;
+    font-size: 14px;
+    padding: 10px 0px 0px 130px;
+}
+
+.ulLanguages li{
+    padding-left: 15px;
+    line-height: 25px;
+}
+
+.bel{
+    font-weight: bold;
+}
+
+.rus{
+    font-weight: bold;
+}
+
+.eng{
+    font-weight: bold;
 }
