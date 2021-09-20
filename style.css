@@ -1,0 +1,528 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+/* a:hover{text-decoration: none;}
+ul li{list-style: none;} */
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+    background-color: #746954;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resume{
+    margin: 20px auto;
+}
+
+header{
+    width: 1000px;
+    height: 550px;
+    background: #462F2D;
+    margin: auto;
+}
+
+.myName{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 80px;
+    position: relative;
+    top: 185px;
+    left: 15px;
+}
+
+.myPhoto{
+    max-width: 350px;
+    height: 550px;
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+
+.aboutMe{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    right: -60px;
+}
+
+.aboutMeText{
+    color: #FFFFFF;
+    font-size: 14px;
+    max-width: 300px;
+    position: relative;
+    top: -430px;
+    left: 680px;
+    line-height: 18px;
+}
+
+.line1{
+    border-top: 2px solid #FFFFFF;
+    max-width: 250px;
+    position: relative;
+    top: -670px;
+    left: 22px;
+}
+
+.line2{
+    border-top: 2px solid #FFFFFF;
+    max-width: 250px;
+    position: relative;
+    top: -490px;
+    left: 22px;
+}
+
+main{
+    width: 1000px;
+    height: 930px;
+    background: #ffffff;
+    margin: auto;
+}
+
+.leftColumn{
+    width: 40%;
+    height: 100%;
+    background: #F0D58E;
+    float: left;
+}
+
+aside{
+    width: 60%;
+    height: 100%;
+    background: #FFFBED;
+    margin-left: 40%;
+}
+
+.headerContacts{
+    padding: 24px 205px 0px 80px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.contactsLine1{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+}
+.contactsLine2{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+
+.imgPhone{
+    padding: 20px 0px 0px 80px;
+}
+
+.wordPhone{
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 10px 145px;
+    font-weight: 600;
+    position: relative;
+    bottom: 35px;
+}
+
+.telephone{
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 35px;
+}
+
+.intermediateLine1{
+    border-top: 1px solid #000000;
+    max-width: 300px;
+    position: relative;
+    left: 52px;
+    bottom: 20px;
+}
+
+.imgMail{
+    padding: 0px 0px 0px 80px;
+}
+
+.wordEmail{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 35px;
+}
+
+.mail{
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 30px;
+}
+
+.intermediateLine2{
+    border-top: 1px solid #000000;
+    max-width: 300px;
+    position: relative;
+    left: 52px;
+    bottom: 15px;
+}
+
+.imgVK{
+    padding: 7px 0px 0px 80px;
+}
+
+.wordVK{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 32px;
+}
+
+.vk{
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 25px;
+}
+
+.intermediateLine3{
+    border-top: 1px solid #000000;
+    max-width: 300px;
+    position: relative;
+    left: 52px;
+    bottom: 10px;
+}
+
+.imgGitHub{
+    padding: 10px 0px 0px 80px;
+}
+
+.wordGitHub{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 32px;
+}
+
+.gitHub{
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 25px;
+}
+
+.intermediateLine4{
+    border-top: 1px solid #000000;
+    max-width: 300px;
+    position: relative;
+    left: 52px;
+    bottom: 10px;
+}
+
+.imgTelegram{
+    padding: 10px 0px 0px 80px;
+}
+
+.wordTelegram{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 32px;
+}
+
+.telegram{
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 25px;
+}
+
+.headerSkills{
+    padding: 24px 205px 0px 80px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.skillsLine1{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+}
+
+.skillsLine2{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+
+.ulSkills{
+    color: #000000;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 10px 0px 0px 125px;
+}
+
+.ulSkills li{
+    padding-left: 20px;
+}
+
+.ulSkills li::marker{
+    font-size: 25px;
+}
+
+.headerLanguages{
+    padding: 20px 205px 0px 80px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.languagesLine1{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+    top: 5px;
+}
+
+.languagesLine2{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+
+.ulLanguages{
+    color: #000000;
+    font-size: 14px;
+    padding: 20px 0px 0px 125px;
+}
+
+.ulLanguages li{
+    padding-left: 20px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.ulLanguages li::marker{
+    font-size: 25px;
+}
+
+.bel{
+    font-weight: bold;
+}
+
+.rus{
+    font-weight: bold;
+}
+
+.eng{
+    font-weight: bold;
+}
+
+.headerEducation{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+    position: relative;
+    left: 70px;
+}
+
+.educationLine1{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+}
+
+.educationLine2{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+}
+
+.ulEducation{
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    left: 70px;
+    top: 10px;
+    line-height: 20px;
+}
+
+.ulEducation li{
+    margin-bottom: 10px;
+}
+
+.ulEducation li::marker{
+    font-size: 25px;
+}
+
+.headerWorkExp{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+    position: relative;
+    left: 70px;
+}
+
+.workExpLine1{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+}
+
+.workExpLine2{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+}
+
+.workExperience{
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    left: 70px;
+    top: 15px;
+    line-height: 20px;
+}
+
+.ulWorkExp{
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    line-height: 15px;
+}
+
+.ulWorkExp li{
+    margin-bottom: 10px;
+}
+
+.ulWorkExp li::marker{
+    font-size: 25px;
+}
+
+.headerCodeExample{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+
+.CodeExampleLine1{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+
+.CodeExampleLine2{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+    bottom: 17px;
+}
+
+.pCodeExmpl{
+    color: #000000;
+    font-weight: 14;
+    line-height: 20px;
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+.code{
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+
+footer{
+    clear: left;
+    width: 1000px;
+    height: 100px;
+    background: #462F2D;
+    margin: auto;
+}
+
+.year{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 39px 480px;
+}
+
+.imgGitHub2{
+    position: relative;
+    left: 25px;
+    bottom: 70px;
+}
+
+.rsschool{
+    max-width: 100px;
+    max-height: 60px;
+    position: relative;
+    left: 820px;
+    bottom: 65px;
+}
