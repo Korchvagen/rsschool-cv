@@ -293,11 +293,15 @@ main{
     color: #000000;
     font-size: 14px;
     line-height: 25px;
-    padding: 10px 0px 0px 130px;
+    padding: 10px 0px 0px 125px;
 }
 
 .ulSkills li{
-    padding-left: 15px;
+    padding-left: 20px;
+}
+
+.ulSkills li::marker{
+    font-size: 25px;
 }
 
 .headerLanguages{
@@ -325,12 +329,16 @@ main{
 .ulLanguages{
     color: #000000;
     font-size: 14px;
-    padding: 10px 0px 0px 130px;
+    padding: 10px 0px 0px 125px;
 }
 
 .ulLanguages li{
-    padding-left: 15px;
+    padding-left: 20px;
     line-height: 25px;
+}
+
+.ulLanguages li::marker{
+    font-size: 25px;
 }
 
 .bel{
