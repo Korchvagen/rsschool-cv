@@ -1,1 +1,1 @@
-https://Korchvagen.github.io/rsschool-cv/cv
+https://Korchvagen.github.io/rsschool-cv/
