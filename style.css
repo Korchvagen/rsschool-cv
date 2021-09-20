@@ -36,6 +36,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.resume{
+    margin: 20px auto;
+}
+
 header{
     width: 1000px;
     height: 550px;
@@ -111,10 +115,10 @@ main{
 }
 
 aside{
-    width: 100%;
+    width: 60%;
     height: 100%;
     background: #FFFBED;
-    float: 40%;
+    margin-left: 40%;
 }
 
 .headerContacts{
@@ -375,14 +379,14 @@ aside{
     border-top: 2px solid #000000;
     max-width: 460px;
     position: relative;
-    left: 470px;
+    left: 70px;
 }
 
 .educationLine2{
     border-top: 2px solid #000000;
     max-width: 460px;
     position: relative;
-    left: 470px;
+    left: 70px;
     bottom: 30px;
 }
 
@@ -410,23 +414,21 @@ aside{
     padding-top: 25px;
     position: relative;
     left: 70px;
-    top: 10px;
 }
 
 .workExpLine1{
     border-top: 2px solid #000000;
     max-width: 460px;
     position: relative;
-    left: 470px;
-    top: 12px;
+    left: 70px;
 }
 
 .workExpLine2{
     border-top: 2px solid #000000;
     max-width: 460px;
     position: relative;
-    left: 470px;
-    bottom: 20px;
+    left: 70px;
+    bottom: 30px;
 }
 
 .workExperience{
@@ -434,7 +436,7 @@ aside{
     color: #000000;
     position: relative;
     left: 70px;
-    top: 20px;
+    top: 15px;
     line-height: 20px;
 }
 
@@ -444,7 +446,7 @@ aside{
     position: relative;
     left: 100px;
     top: 20px;
-    line-height: 20px;
+    line-height: 15px;
 }
 
 .ulWorkExp li{
@@ -453,4 +455,72 @@ aside{
 
 .ulWorkExp li::marker{
     font-size: 25px;
+}
+
+.headerCodeExample{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+
+.CodeExampleLine1{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+
+.CodeExampleLine2{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 70px;
+    bottom: 17px;
+}
+
+.pCodeExmpl{
+    color: #000000;
+    font-weight: 14px;
+    line-height: 20px;
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+.code{
+    max-width: 460px;
+    max-height: 300px;
+}
+
+footer{
+    clear: left;
+    width: 1000px;
+    height: 100px;
+    background: #462F2D;
+    margin: auto;
+}
+
+.year{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 39px 480px;
+}
+
+.imgGitHub2{
+    position: relative;
+    left: 25px;
+    bottom: 70px;
+}
+
+.rsschool{
+    max-width: 100px;
+    max-height: 60px;
+    position: relative;
+    left: 820px;
+    bottom: 65px;
 }
