@@ -66,7 +66,7 @@ header{
     color: #FFFFFF;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: bold;
     position: relative;
     top: 50px;
     right: -60px;
@@ -97,4 +97,64 @@ header{
     position: relative;
     top: -490px;
     left: 30px;
+}
+
+main{
+    width: 400px;
+    height: 930px;
+    background: #F0D58E;
+    margin: 0px 0px 0px 176px;
+}
+
+.headerContacts{
+    padding: 24px 205px 0px 145px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.contactsLine1{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+}
+.contactsLine2{
+    border-top: 2px solid #000000;
+    max-width: 250px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+}
+
+.imgPhone{
+    padding: 20px 0px 0px 80px;
+}
+
+.wordPhone{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 10px 145px;
+    font-weight: 600;
+    position: relative;
+    bottom: 35px;
+}
+
+.telephone{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0px 0px 145px;
+    position: relative;
+    bottom: 35px;
+}
+
+.intermediateLine{
+    border-top: 1px solid #000000;
+    max-width: 300px;
+    position: relative;
+    left: 52px;
+    bottom: 20px;
 }
