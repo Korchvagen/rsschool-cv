@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <link rel="stylesheet" href="style.css">
     <title>Rsschool-cv-html</title>
@@ -138,7 +138,21 @@
                     <div class="CodeExampleLine1"></div>
                     <div class="CodeExampleLine2"></div>
                     <p class="pCodeExmpl">This function takes an array of numbers and sorts them in<br> ascending order.</p>
-                    <img class="code" src="img/code.jpg" alt="Code example">
+                    <pre>
+                        <code class="code">
+function sortArray(arr){
+   for(let i = 0; i &lt; arr.length-1; i++){
+       for(let j = i + 1; j &lt; arr.length; j++){
+           if(arr[i]&lt;arr[j]){
+              let swap = arr[i];
+              arr[i] = arr[j];
+              arr[j] = swap;
+            }
+        }
+    }
+}
+                        </code>
+                    </pre>
                 </section>
             </aside>
         </main>

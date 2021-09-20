@@ -485,7 +485,7 @@ aside{
 
 .pCodeExmpl{
     color: #000000;
-    font-weight: 14px;
+    font-weight: 14;
     line-height: 20px;
     position: relative;
     top: 30px;
@@ -494,7 +494,9 @@ aside{
 
 .code{
     max-width: 460px;
-    max-height: 300px;
+    position: relative;
+    left: 70px;
+    top: 100px;
 }
 
 footer{
