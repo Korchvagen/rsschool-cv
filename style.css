@@ -107,11 +107,18 @@ main{
     width: 40%;
     height: 100%;
     background: #F0D58E;
+    float: left;
+}
 
+aside{
+    width: 100%;
+    height: 100%;
+    background: #FFFBED;
+    float: 40%;
 }
 
 .headerContacts{
-    padding: 24px 205px 0px 145px;
+    padding: 24px 205px 0px 80px;
     color: #000000;
     font-size: 24px;
     font-weight: bold;
@@ -268,7 +275,7 @@ main{
 }
 
 .headerSkills{
-    padding: 24px 205px 0px 145px;
+    padding: 24px 205px 0px 80px;
     color: #000000;
     font-size: 24px;
     font-weight: bold;
@@ -305,7 +312,7 @@ main{
 }
 
 .headerLanguages{
-    padding: 30px 205px 0px 145px;
+    padding: 20px 205px 0px 80px;
     color: #000000;
     font-size: 24px;
     font-weight: bold;
@@ -316,6 +323,7 @@ main{
     max-width: 250px;
     position: relative;
     left: 80px;
+    top: 5px;
 }
 
 .languagesLine2{
@@ -329,12 +337,13 @@ main{
 .ulLanguages{
     color: #000000;
     font-size: 14px;
-    padding: 10px 0px 0px 125px;
+    padding: 20px 0px 0px 125px;
 }
 
 .ulLanguages li{
     padding-left: 20px;
-    line-height: 25px;
+    line-height: 15px;
+    margin-bottom: 10px;
 }
 
 .ulLanguages li::marker{
@@ -351,4 +360,97 @@ main{
 
 .eng{
     font-weight: bold;
+}
+
+.headerEducation{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+    position: relative;
+    left: 70px;
+}
+
+.educationLine1{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 470px;
+}
+
+.educationLine2{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 470px;
+    bottom: 30px;
+}
+
+.ulEducation{
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    left: 70px;
+    top: 10px;
+    line-height: 20px;
+}
+
+.ulEducation li{
+    margin-bottom: 10px;
+}
+
+.ulEducation li::marker{
+    font-size: 25px;
+}
+
+.headerWorkExp{
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+.workExpLine1{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 470px;
+    top: 12px;
+}
+
+.workExpLine2{
+    border-top: 2px solid #000000;
+    max-width: 460px;
+    position: relative;
+    left: 470px;
+    bottom: 20px;
+}
+
+.workExperience{
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    left: 70px;
+    top: 20px;
+    line-height: 20px;
+}
+
+.ulWorkExp{
+    font-size: 14px;
+    color: #000000;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    line-height: 20px;
+}
+
+.ulWorkExp li{
+    margin-bottom: 10px;
+}
+
+.ulWorkExp li::marker{
+    font-size: 25px;
 }
