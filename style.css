@@ -53,7 +53,7 @@ header{
     font-weight: bold;
     line-height: 80px;
     position: relative;
-    top: 185px;
+    top: 265px;
     left: 15px;
 }
 
@@ -61,8 +61,8 @@ header{
     max-width: 350px;
     height: 550px;
     position: relative;
-    top: -80px;
-    left: 20px;
+    top: -160px;
+    left: 300px;
 }
 
 .aboutMe{
@@ -70,8 +70,8 @@ header{
     font-size: 24px;
     font-weight: bold;
     position: relative;
-    top: 50px;
-    right: -60px;
+    top: 90px;
+    left: 325px;
 }
 
 .aboutMeText{
@@ -447,6 +447,14 @@ aside{
     left: 100px;
     top: 20px;
     line-height: 15px;
+}
+
+.projectLink{
+    color: #000000;
+}
+
+.projectLink:hover{
+    color: #746954;
 }
 
 .ulWorkExp li{
